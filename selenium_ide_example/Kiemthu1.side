@@ -1,0 +1,75 @@
+{
+  "id": "e07fb4b1-9d95-4692-a1d9-d39454782a25",
+  "version": "2.0",
+  "name": "Kiemthu1",
+  "url": "https://baomoi.com/",
+  "tests": [{
+    "id": "0b963a01-e575-44fd-897f-d5b281af865d",
+    "name": "Test 1",
+    "commands": [{
+      "id": "96ea8f27-260c-4ff0-8098-0dc33d8c1183",
+      "comment": "",
+      "command": "open",
+      "target": "https://baomoi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "056b01e0-9a17-4015-a055-0323928da225",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/header/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "018f2acd-2559-4831-b9b2-1b5bf5cf622d",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='bóng đá']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/header/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bóng đá"
+    }, {
+      "id": "c4e50fbc-cd7a-48f1-8128-f980096d6359",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='bóng đá']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/header/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e6e3576e-699f-4d49-bc2f-4ac154b6f1df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bm_Nl",
+      "targets": [
+        ["css=.bm_Nl", "css:finder"],
+        ["xpath=//div[@id='__next']/header/div/div/div/form/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "599d8a63-5f32-4215-8df4-7d3fbed722b3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0b963a01-e575-44fd-897f-d5b281af865d"]
+  }],
+  "urls": ["https://baomoi.com/"],
+  "plugins": []
+}
