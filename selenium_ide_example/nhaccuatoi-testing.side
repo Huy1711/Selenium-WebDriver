@@ -1,0 +1,466 @@
+{
+  "id": "6f1bec73-69b6-406f-8520-4fd9279f4192",
+  "version": "2.0",
+  "name": "nhaccuatoi-testing",
+  "url": "https://www.nhaccuatui.com/homepage",
+  "tests": [{
+    "id": "e5959f74-a865-4ef8-8069-a248d2ee659a",
+    "name": "Login_2",
+    "commands": [{
+      "id": "ebe577ae-ccc8-4f0f-8c3d-d4b57e7a60d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/homepage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbc2f72d-0f56-46cd-91ab-73130a69dffe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1069x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26fae64c-83fd-43cc-aec8-c73a061179e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.profile-login > p",
+      "targets": [
+        ["css=.profile-login > p", "css:finder"],
+        ["xpath=//a[@id='btnShowBoxLogin']/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9a2d77a-d7aa-46af-b61b-402930354a9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdform",
+      "targets": [
+        ["css=.pdform", "css:finder"],
+        ["xpath=//form[@id='_frmLogin']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29bebc8d-84b5-4dc8-9817-b7642fca16df",
+      "comment": "",
+      "command": "type",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "uet_user_123"
+    }, {
+      "id": "57d253ed-0f56-4b0a-8018-89e50072a7db",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7c4c703-0c7c-4fc8-9e81-fb386796b9ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Password.1001"
+    }, {
+      "id": "8bf5ca5d-2625-45cb-9d00-2b3310b8a27c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@onclick='NCTLoginJWT.login();']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0345f739-5406-4fd0-a6a5-a65f7a679401",
+    "name": "Login_1",
+    "commands": [{
+      "id": "668b9c3d-81c2-4cfc-8e2f-a5a1f913f0b6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/homepage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d5736d4-7618-47d7-9d80-51abc64887d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "859x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2a6b807-fc26-4619-9a5a-1b2013b3467e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.profile-login > p",
+      "targets": [
+        ["css=.profile-login > p", "css:finder"],
+        ["xpath=//a[@id='btnShowBoxLogin']/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "897c6ae9-cf72-4807-aed1-40d3e7382d04",
+      "comment": "",
+      "command": "type",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=uname", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "uet_user_123"
+    }, {
+      "id": "4d89ebc0-46d6-411b-b280-792add7fbafd",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f19fe58-82ef-4deb-a3d1-90c753e8ab1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "dsadasdasdasd"
+    }, {
+      "id": "051c5b19-eb13-4b89-bbc5-156da64608fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@onclick='NCTLoginJWT.login();']", "xpath:attributes"],
+        ["xpath=//form[@id='_frmLogin']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d36abde1-74df-478a-8a43-6b305f92f1a6",
+    "name": "Search1",
+    "commands": [{
+      "id": "768ab0a1-6b5a-4033-a13f-65ce6ea0f843",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/homepage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d6705d7-52fe-44e8-abd1-6dce3c1a79ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "859x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a45ec7a7-4ea6-44e5-a0c1-6347e6c58942",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2139426-69bb-4f76-996f-72327d99c29e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6405bb9e-414f-4008-9fe9-f33f5a21aa6f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30b67b4e-a4d0-4e77-9aa4-08cbaad5b205",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "lac ttroi"
+    }, {
+      "id": "6a592e18-7585-4f46-84dc-62f644317dea",
+      "comment": "",
+      "command": "click",
+      "target": "css=#li0 .name_suggestion",
+      "targets": [
+        ["css=#li0 .name_suggestion", "css:finder"],
+        ["xpath=//li[@id='li0']/a/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lạc Trôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c53b454c-b769-4603-8c2a-ac6cc9fbd370",
+    "name": "Search2",
+    "commands": [{
+      "id": "ec74ef39-d6ed-4a8b-987e-a32fd476cae8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/homepage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d97a202-533b-4c39-9892-4648a7582360",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "859x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42bcd002-bb5f-4489-adf0-7231d76adbab",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddf0a1e2-8088-41b0-9057-8b81dc3fb175",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": " dasdas23213"
+    }, {
+      "id": "9c6bac6a-45b5-4b53-a6d4-fddbe090ec5f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["name=q", "name"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='formSearchQuick']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "163fef5a-50a5-4cb7-8bca-c20886c9a64e",
+    "name": "baihat1",
+    "commands": [{
+      "id": "24625e81-b891-426a-a3c3-ad1fc6ac0a7e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/homepage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c057a635-a29a-4bbb-85fd-856568a4887b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "859x703",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c958762d-0c9b-4dda-8bf4-054a14ead2cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bài Hát",
+      "targets": [
+        ["linkText=Bài Hát", "linkText"],
+        ["css=.hover:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bài Hát')]", "xpath:link"],
+        ["xpath=//ul[@id='menuTop']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bài Hát')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd1dc575-2083-45ee-a993-5957e3e0de01",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nhạc Trẻ",
+      "targets": [
+        ["linkText=Nhạc Trẻ", "linkText"],
+        ["css=.detail_menu_browsing_dashboard > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Nhạc Trẻ')])[6]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.nhaccuatui.com/bai-hat/nhac-tre-moi.html')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "397263f9-753d-439e-b105-79b947f51809",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e82d4fe5-2555-4847-8fbc-d7ab84ebd82a",
+    "name": "baihat2",
+    "commands": [{
+      "id": "59ba8f3d-d434-4229-a103-5d5c218e9f60",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nhaccuatui.com/homepage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e3e865b-3236-4f73-83f6-1838c6e2050b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "859x703",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9cd900c-7aac-41bf-ac3c-120e5c580631",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bài Hát",
+      "targets": [
+        ["linkText=Bài Hát", "linkText"],
+        ["css=.hover:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bài Hát')]", "xpath:link"],
+        ["xpath=//ul[@id='menuTop']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bài Hát')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ae8530-dc9c-49ca-b7c3-cb52ef200521",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pop",
+      "targets": [
+        ["linkText=Pop", "linkText"],
+        ["css=.detail_menu_browsing_dashboard > li:nth-child(12) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pop')])[5]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.nhaccuatui.com/bai-hat/pop-moi.html')])[3]", "xpath:href"],
+        ["xpath=//div/ul/li[12]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0f40a8-7f2f-42b1-8f52-6d05c8f0d1bd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73deac0a-208f-4e18-b4ac-7430e0092eba",
+    "name": "Test_Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0345f739-5406-4fd0-a6a5-a65f7a679401", "e5959f74-a865-4ef8-8069-a248d2ee659a"]
+  }, {
+    "id": "87499779-2af7-4112-97d6-69cddecf0323",
+    "name": "Test_search",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d36abde1-74df-478a-8a43-6b305f92f1a6", "c53b454c-b769-4603-8c2a-ac6cc9fbd370"]
+  }, {
+    "id": "6e2708e6-49a3-4661-ad7e-6ac6fd75385a",
+    "name": "Test_bai_hat",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["163fef5a-50a5-4cb7-8bca-c20886c9a64e", "e82d4fe5-2555-4847-8fbc-d7ab84ebd82a"]
+  }],
+  "urls": ["https://www.nhaccuatui.com/homepage"],
+  "plugins": []
+}
